@@ -31,3 +31,9 @@ pnpm-debug.log*
 
 # Vercel
 .vercel
+.env
+.env.*
+*.env
+credentials.json
+*.key
+.credentials
