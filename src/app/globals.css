@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+  /* Legacy tokens (kept for backward compatibility) */
   --background: #f8faf8;
   --surface: #ffffff;
   --surface-muted: #f0f4f1;
@@ -10,6 +11,17 @@
   --border: #d8e1db;
   --brand-primary: #176149;
   --brand-primary-strong: #0f4d39;
+
+  /* Claude Reimagination brand tokens */
+  --midnight-navy: #0d1b24;
+  --petrol-teal: #0c5a56;
+  --petrol-light: #147a74;
+  --petrol-dark: #084240;
+  --solar-amber: #f3b23f;
+  --amber-light: #f5c76a;
+  --amber-dark: #d99a2a;
+  --titanium-grey: #69757a;
+  --warm-white: #f5f2ea;
 }
 
 * {
